@@ -9,17 +9,8 @@
 .mobile-nav-header{
   height: 50px;
   width: 100%;
-  background-color: #1e1e1e;
+  background-color: #e0b50f;
   padding: 8px;
-}
-
-.mobile-nav-title{
-  margin-left: 20px;
-  color: #e0b50f;
-  font-weight: bold;
-  text-transform: capitalize;
-  vertical-align: middle;
-  font-size: 20px;
 }
 
 .mobile-nav-header .mobile-nav-icon{

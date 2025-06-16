@@ -30,8 +30,6 @@ const MobileNav = () => {
       <div className="mobile-nav-header">
             {open ? (<AiOutlineMenuFold size={30} className='mobile-nav-icon' onClick={handleOpen}/>) :
             (<GiHamburgerMenu size={30} className='mobile-nav-icon' onClick={handleOpen}/>)}
-        
-        <span className='mobile-nav-title'></span>
       </div>
       {open && (
           <div className="mobile-nav-menu">
