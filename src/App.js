@@ -9,6 +9,7 @@ import WorkExp from './pages/WorkExp/WorkExp';
 import Contact from './pages/Contact/Contact';
 import Footer from './pages/Footer/Footer';
 import ScrollToTop from "react-scroll-to-top";
+import './App.css';
 
 
 function App() {
