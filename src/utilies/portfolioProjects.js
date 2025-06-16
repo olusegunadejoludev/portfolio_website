@@ -10,8 +10,8 @@ export const portfolioProjects = [
     title: "Portfolio Website",
     image: portfolioImg,
     alt: "Portfolio image",
-    demoLink: "https://personal-portfolio-website-frontend.vercel.app",
-    codeLink: "https://github.com/Damilordz/personal_portfolio_website.git",
+    demoLink: "https://olusegunadejoludev.vercel.app/",
+    codeLink: "https://github.com/olusegunadejoludev/portfolio_website.git",
   },
   {
     title: "Travel App",
