@@ -1,0 +1,44 @@
+/* Show on large screens only */
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+/* Layout for full screen */
+.layout-container {
+  display: flex;
+}
+
+/* Sidebar styles (always visible on desktop) */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #1e1e1e;
+  position: fixed;
+  
+}
+
+/* Main content */
+
+/* Responsive behavior for smaller screens */
+@media screen and (max-width: 600px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .container {
+    margin: 0;
+    width: 100%;
+  }
+}

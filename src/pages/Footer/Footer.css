@@ -1,0 +1,26 @@
+.footer-container {
+  max-width: 100%;
+  justify-content: center;
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.footer-container a {
+  color: #e0b50f;
+  text-decoration: none;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+/*=============================*/
+@media (max-width: 600px) {
+  .footer-container {
+    margin-left: 0;
+  }
+}

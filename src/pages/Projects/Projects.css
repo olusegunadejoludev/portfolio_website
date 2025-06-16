@@ -1,0 +1,105 @@
+.projects-container {
+  max-width: 100%;
+  padding: 20px;
+  justify-content: flex-start;
+  align-items: start;
+  margin: 30px 0;
+  margin-left: 50px;
+}
+
+.projects-title h2{
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #1e1e2c;
+  margin-left: 150px;
+}
+
+.projects-title h2::after {
+  content: "";
+  display: block;
+  width: 5rem;
+  height: 0.3rem;
+  background: #e0b50f;
+  margin-top: 1.5rem;
+}
+
+.portfolio-wrap {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0 10rem;
+}
+
+.p-card-img img {
+  width: 100%;
+}
+
+.p-card-img {
+  position: relative;
+}
+
+.portfolio-hover-options {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.7s ease-in-out, visibility 0.7s ease;
+}
+
+.portfolio-hover-options a {
+  background-color: #073678;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.portfolio-hover-options a:hover {
+  background-color: #149ddd;
+}
+
+.portfolio-wrap .card:hover .portfolio-hover-options,
+.portfolio-wrap .card .portfolio-hover-options.hover-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*===============================*/
+@media (max-width: 600px) {
+  .projects-container {
+    margin: 0;
+    padding: 20px;
+    margin-top: 20px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .projects-title h2 {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 0;
+  }
+  .projects-title h2::after {
+    width: 3rem;
+    height: 0.2rem;
+    margin-left: 0;
+  }
+  .portfolio-wrap{
+    padding: 0;
+    grid-template-columns: 1fr;
+  }
+}
