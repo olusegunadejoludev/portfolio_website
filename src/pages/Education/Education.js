@@ -56,7 +56,7 @@ const Education = () => {
     iconStyle={{ background: '#1e1e2c', color: '#fff' }}
     icon={<FaCircleDot />}
   >
-    <div className="custom-date">2011 - Present</div>
+    <div className="custom-date">2023 - 2024</div>
     <h3 className="vertical-timeline-element-title">FullStack Web Development</h3>
     <h4 className="vertical-timeline-element-subtitle">GOMYCODE Academy</h4>
     <p style={{ color: 'white' }}>
@@ -88,4 +88,4 @@ const Education = () => {
   )
 }
 
-export default Education
+export default Education;
