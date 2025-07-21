@@ -1,4 +1,4 @@
-import portfolioImg from '../assets/images/projects/portfolio_website.png';
+import portfolioImg from '../assets/images/projects/portfolio_website01.png';
 import hilinkApp from '../assets/images/projects/hilinkapp.png';
 import shopEase from '../assets/images/projects/shopease.png';
 import docPlanner from '../assets/images/projects/Docplanner.png';
