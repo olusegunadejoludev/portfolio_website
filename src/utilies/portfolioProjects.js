@@ -1,9 +1,11 @@
-import portfolioImg from '../assets/images/projects/portfolio_website01.png';
+import portfolioImg from '../assets/images/projects/portfolio_website.png';
 import hilinkApp from '../assets/images/projects/hilinkapp.png';
 import shopEase from '../assets/images/projects/shopease.png';
 import docPlanner from '../assets/images/projects/Docplanner.png';
 import hybridCipher from '../assets/images/projects/hybridcipher.png';
 import movieLand from '../assets/images/projects/movieland.png';
+import incidentApp from '../assets/images/projects/Incidentapp.png';
+import brainySpices from '../assets/images/projects/Brainyspices.png';
 
 export const portfolioProjects = [
   {
@@ -19,6 +21,20 @@ export const portfolioProjects = [
     alt: "Travel App",
     demoLink: "https://travel-app-jet-alpha.vercel.app/",
     codeLink: "https://github.com/olusegunadejoludev/Travel-App-Client-Side.git",
+  },
+  {
+    title: "Incident App",
+    image: incidentApp,
+    alt: "Incident App",
+    demoLink: "https://incidentapp-lovat.vercel.app/",
+    codeLink: "https://github.com/olusegunadejoludev/incident-app.git",
+  },
+  {
+    title: "Brainy Spices",
+    image: brainySpices,
+    alt: "Brainy Spices",
+    demoLink: "https://brainy-spices.vercel.app/",
+    codeLink: "https://github.com/olusegunadejoludev/brainy_spices.git",
   },
   {
     title: "Nike Shopease",
