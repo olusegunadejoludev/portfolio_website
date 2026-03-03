@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 import './Home.css';
 import { FcAddressBook } from "react-icons/fc";
 import { FcRules } from "react-icons/fc";
-import Resume from '../../assets/docs/Olusegun Adejolu CV - 01.pdf';
+import Resume from '../../assets/docs/Olusegun Adejolu CV - 03.pdf';
 import { Fade } from 'react-awesome-reveal';
 
 const Home = () => {
